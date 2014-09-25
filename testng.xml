@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  
+ 
+  <test name="tests">
+    <classes>
+      <class name="test.footer"/>
+      
+      
+    </classes>
+  </test>
+  <test name="tests1">
+    <classes>
+      <class name="test.giftcards"/>
+      
+      
+    </classes>
+  </test>
+ 
+ 
+  <test name="tests3">
+    <classes>
+      <class name="test.NewTest"/>
+      
+      
+    </classes>
+  </test>
+  <test name="tests4">
+    <classes>
+      <class name="test.signuppage"/>
+      
+      
+    </classes>
+  </test>
+  <test name="tests5">
+    <classes>
+      <class name="test.Slidingimages"/>
+      
+      
+    </classes>
+  </test>
+  <test name="tests6">
+    <classes>
+      <class name="test.Stars"/>
+      
+      
+    </classes>
+  </test>
+</suite>

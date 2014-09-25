@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="tests1(failed)">
+    <classes>
+      <class name="test.Stars">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- test.Stars -->
+      <class name="test.signuppage">
+        <methods>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- test.signuppage -->
+      <class name="test.footer">
+        <methods>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- test.footer -->
+      <class name="test.NewTest">
+        <methods>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- test.NewTest -->
+      <class name="test.giftcards">
+        <methods>
+          <include name="tear"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- test.giftcards -->
+    </classes>
+  </test> <!-- tests1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
